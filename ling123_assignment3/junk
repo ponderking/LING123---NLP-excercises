@@ -1,0 +1,63 @@
+
+
+
+
+# new_html_file.append(unicorn)
+# new_html_file.append(unicorn)
+# new_html_file.append(keywords)
+# new_html_file.append(paragraphs)
+
+
+
+# print(keywords)
+
+
+
+
+
+
+# desired_tags = [("<!--", "-->"), ("<title>", "</title>"), ("<meta name=\"keywords\"", ">"), ()]
+# essential html=""
+#
+#
+#
+# changes_to_tags = []
+#
+# new_html = []
+#
+# print(desired_tags[0])
+#
+#
+#
+# find_closing_tag = False
+# current_line = 1
+# start_tag_line = 1
+# tag_search_no = 0
+#
+# while tag_search_no < len(desired_tags):
+#     for line in split_content:
+#             if not find_closing_tag:
+#                 if desired_tags[tag_search_no][0] in line:
+#                     if desired_tags[tag_search_no][1] in line:
+#                          new_html.append(line)
+#                     else:
+#                         find_closing_tag = True
+#                         start_tag_line = current_line
+#                 # else:
+#             else:
+#                 if desired_tags[tag_search_no][1] in line:
+#                     new_html.extend(split_content[slice(start_tag_line, current_line)])
+#                     find_closing_tag = False
+#                 # else:
+#             current_line += 1
+#     tag_search_no += 1
+#     current_line = 0
+#
+#
+# for line in new_html:
+#     print(line)
+#
+# # print(unicorn)
+# # print(title)
+# #
+# # new_html = ""

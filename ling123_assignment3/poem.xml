@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE poem [
+<!ELEMENT poem (stanza+)>
+<!ATTLIST poem title CDATA #IMPLIED >
+<!ATTLIST poem author CDATA #IMPLIED >
+<!ELEMENT stanza (token+)>
+<!ATTLIST stanza s-id CDATA #REQUIRED >
+<!ELEMENT token (wordform,rhyme)>
+<!ATTLIST token t-id CDATA #REQUIRED >
+<!ELEMENT wordform (#PCDATA)>
+<!ELEMENT rhyme (#PCDATA)>
+]>
+
+
+<poem>
+	<stanza s-id="1">
+		<token t-id="1-1">
+			<wordform>
+				ROSES
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-2">
+			<wordform>
+				their
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-3">
+			<wordform>
+				sharp
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-4">
+			<wordform>
+				spines
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-5">
+			<wordform>
+				being
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-6">
+			<wordform>
+				gone
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-7">
+			<wordform>
+				Not
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-8">
+			<wordform>
+				royal
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-9">
+			<wordform>
+				in
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-10">
+			<wordform>
+				their
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-11">
+			<wordform>
+				smells
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-12">
+			<wordform>
+				alone
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="1-13">
+			<wordform>
+				But
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="1-14">
+			<wordform>
+				in
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="1-15">
+			<wordform>
+				their
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="1-16">
+			<wordform>
+				hue
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="1-17">
+			<wordform>
+				Maiden
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-18">
+			<wordform>
+				pinks
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-19">
+			<wordform>
+				of
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-20">
+			<wordform>
+				odour
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-21">
+			<wordform>
+				faint
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-22">
+			<wordform>
+				Daisies
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-23">
+			<wordform>
+				smell-less
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-24">
+			<wordform>
+				yet
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-25">
+			<wordform>
+				most
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-26">
+			<wordform>
+				quaint
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="1-27">
+			<wordform>
+				And
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="1-28">
+			<wordform>
+				sweet
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="1-29">
+			<wordform>
+				thyme
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="1-30">
+			<wordform>
+				true
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+	</stanza>
+	<stanza s-id="2">
+		<token t-id="2-0">
+			<wordform>
+				Primrose
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-1">
+			<wordform>
+				firstborn
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-2">
+			<wordform>
+				child
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-3">
+			<wordform>
+				of
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-4">
+			<wordform>
+				Ver
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-5">
+			<wordform>
+				Merry
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-6">
+			<wordform>
+				springtime
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-7">
+			<wordform>
+				's
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-8">
+			<wordform>
+				harbinger
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-9">
+			<wordform>
+				With
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-10">
+			<wordform>
+				her
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-11">
+			<wordform>
+				bells
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-12">
+			<wordform>
+				dim
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="2-13">
+			<wordform>
+				Oxlips
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="2-14">
+			<wordform>
+				in
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="2-15">
+			<wordform>
+				their
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="2-16">
+			<wordform>
+				cradles
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="2-17">
+			<wordform>
+				growing
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="2-18">
+			<wordform>
+				Marigolds
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-19">
+			<wordform>
+				on
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-20">
+			<wordform>
+				death-beds
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-21">
+			<wordform>
+				blowing
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-22">
+			<wordform>
+				Larks
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-23">
+			<wordform>
+				heels
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="2-24">
+			<wordform>
+				trim
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+	</stanza>
+	<stanza s-id="3">
+		<token t-id="3-0">
+			<wordform>
+				All
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-1">
+			<wordform>
+				dear
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-2">
+			<wordform>
+				Nature
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-3">
+			<wordform>
+				's
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-4">
+			<wordform>
+				children
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-5">
+			<wordform>
+				sweet
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-6">
+			<wordform>
+				Lie
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-7">
+			<wordform>
+				fore
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-8">
+			<wordform>
+				bride
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-9">
+			<wordform>
+				&amp;
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-10">
+			<wordform>
+				bridegroom
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-11">
+			<wordform>
+				's
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-12">
+			<wordform>
+				feet
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-13">
+			<wordform>
+				Blessing
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-14">
+			<wordform>
+				their
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-15">
+			<wordform>
+				sense
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="3-16">
+			<wordform>
+				Not
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="3-17">
+			<wordform>
+				an
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="3-18">
+			<wordform>
+				angel
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="3-19">
+			<wordform>
+				of
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="3-20">
+			<wordform>
+				the
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="3-21">
+			<wordform>
+				air
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="3-22">
+			<wordform>
+				Bird
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-23">
+			<wordform>
+				melodious
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-24">
+			<wordform>
+				or
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-25">
+			<wordform>
+				bird
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-26">
+			<wordform>
+				fair
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-27">
+			<wordform>
+				Be
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-28">
+			<wordform>
+				absent
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="3-29">
+			<wordform>
+				hence
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+	</stanza>
+	<stanza s-id="4">
+		<token t-id="4-0">
+			<wordform>
+				The
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-1">
+			<wordform>
+				crow
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-2">
+			<wordform>
+				the
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-3">
+			<wordform>
+				slanderous
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-4">
+			<wordform>
+				cuckoo
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-5">
+			<wordform>
+				nor
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-6">
+			<wordform>
+				The
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-7">
+			<wordform>
+				boding
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-8">
+			<wordform>
+				raven
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-9">
+			<wordform>
+				nor
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-10">
+			<wordform>
+				chough
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-11">
+			<wordform>
+				hoar
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-12">
+			<wordform>
+				Nor
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-13">
+			<wordform>
+				chattering
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-14">
+			<wordform>
+				pye
+			</wordform>
+			<rhyme>
+				A
+			</rhyme>
+		</token>
+		<token t-id="4-15">
+			<wordform>
+				May
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="4-16">
+			<wordform>
+				on
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="4-17">
+			<wordform>
+				our
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="4-18">
+			<wordform>
+				bride-house
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="4-19">
+			<wordform>
+				perch
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="4-20">
+			<wordform>
+				or
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="4-21">
+			<wordform>
+				sing
+			</wordform>
+			<rhyme>
+				B
+			</rhyme>
+		</token>
+		<token t-id="4-22">
+			<wordform>
+				Or
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-23">
+			<wordform>
+				with
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-24">
+			<wordform>
+				them
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-25">
+			<wordform>
+				any
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-26">
+			<wordform>
+				discord
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-27">
+			<wordform>
+				bring
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-28">
+			<wordform>
+				But
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-29">
+			<wordform>
+				from
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-30">
+			<wordform>
+				it
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+		<token t-id="4-31">
+			<wordform>
+				fly
+			</wordform>
+			<rhyme>
+				C
+			</rhyme>
+		</token>
+	</stanza>
+</poem>
